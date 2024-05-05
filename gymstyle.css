@@ -1,0 +1,428 @@
+@media only screen and (max-width: 800px) {
+  body {
+    nav ul {
+      font-size: 16px;
+    }
+
+    nav {
+      gap: 8px;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 58px 30px;
+      align-items: center;
+      gap: 30px;
+    }
+
+    aside p {
+      font-size: 18px;
+
+    }
+  }
+
+  main .browseall h1 {
+    font-size: 35px;
+  }
+
+
+
+
+  header .logo img {
+    width: 126px;
+
+  }
+
+  header .logo h1 {
+
+    font-size: 45px;
+  }
+
+
+
+  main .browse h1 {
+
+
+    font-size: 13px;
+    gap: 6px;
+    border: 4px solid white;
+    padding: 4px;
+  }
+  
+.buysection .buying{flex-direction: column;
+
+gap: 5px;}
+
+}
+.dumbbuy{
+  background-color: white;
+color: black;
+}
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #24242d;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  gap: 5px;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  font-size: 34px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 27px;
+  background-color: #39465b;
+  height: 140px;
+  align-items: center;
+  width: 100vw;
+  gap: 100px;
+}
+
+nav ul {
+  background-color: #484848;
+  border: 4px solid white;
+  padding: 5px 17px;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+aside {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 58px 30px;
+  align-items: center;
+  gap: 79px;
+}
+
+aside img {
+  width: 30vw;
+  min-width: 329px;
+  border: white 11px solid;
+  max-width: 479px;
+
+}
+
+
+
+.storeitems {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 63px;
+
+}
+
+.item {
+  width: 260px;
+
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  border: 2px white solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.browseall h1 {
+  margin: 56px 0px;
+
+  border: solid 9px white;
+  padding: 20px;
+  font-size: 60px;
+  color: white;
+
+}
+
+.browse h1 {
+  border: 6px solid white;
+  padding: 3px;
+  font-size: 24px;
+}
+
+aside p {
+  font-size: 26px;
+  font-family: "Cinzel", serif;
+
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+.logo img {
+  width: 250px;
+}
+
+.logo h1 {
+  background-color: white;
+  color: black;
+  font-size: 84px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.browse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.browseitem img {
+
+  width: 400px;
+  max-width: 400px;
+}
+
+.browseitem {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin: 42px 0px;
+
+}
+
+.storeitems img {
+  border-radius: 9px;
+}
+
+.itemdetails {
+  display: flex;
+  flex-direction: row;
+  gap: 160px;
+}
+
+.itemdetails h3 {
+  font-size: 24px;
+  border: 1px solid blue;
+  height: 33px;
+  width: 55px;
+  background: white;
+  color: black;
+
+  margin: 11px 0px;
+}
+
+.item h1 {
+  font-size: 25px;
+
+}
+
+.itemdetails h2 {
+  font-size: 25px;
+  margin: 11px 0px;
+
+  color: #36e830;
+}
+
+.itembuy {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.itembuy h1 {
+
+  border: 2px solid black;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 28px;
+  height: 26px;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.itembuy h3 {
+
+  border: 2px solid black;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 28px;
+  height: 26px;
+  font-size: 21px;
+
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  background-color: #484848;
+}
+.buysection{
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  width: 100vw;
+}
+.buying{
+  display: flex;
+  align-items: center;
+  margin: 56px 0px;
+  gap: 130px ;
+}
+.buying img{
+
+  width: 350px;
+  max-width: 350px;
+  min-width: 250px;
+  border-radius: 10px;
+}
+.buycol{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.buydesc{
+
+
+display: flex;
+flex-direction: column;
+gap: 17px;
+}
+.buyitem{display: flex;
+
+  gap: 58px;
+flex-direction: row;}
+
+
+
+
+.quantity{  display: flex;
+  flex-direction: row;
+  gap:20px;
+  text-align: center;
+
+
+
+}
+.quantity h1{
+
+  border: 2px solid black;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 28px;
+  height: 26px;
+  font-size: 21px;
+
+  cursor: pointer;
+}
+
+.quantity h2{
+color: red;
+
+}
+.quantity h3{
+
+  border: 2px solid black;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 28px;
+  height: 26px;
+  font-size: 21px;
+
+  cursor: pointer;
+}
+
+.buyitem button{
+  font-size: 24px;
+  border: 1px solid blue;
+  height: 30px;
+  width: 50px;
+  background: white;
+  color: black;
+
+
+}
+
+.buyitem button{
+  font-size: 24px;
+  border: 1px solid blue;
+  height: 30px;
+  width: 50px;
+  background: white;
+  color: black;
+
+
+}
+
+.buyitem h1{
+  font-size: 25px;
+ 
+
+  color: #36e830;
+
+
+}
+.dumbweights{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.dumbweights button{
+ 
+  border: 4px solid white;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 3px;
+  cursor: pointer;
+}
+.lighttxt{
+  background-color: white;
+  color: black;
+}
+.browsetxt{
+
+  background-color: #24242d;
+}
+.buydesc p{
+  width: 300px;
+}
